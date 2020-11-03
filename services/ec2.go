@@ -15,8 +15,6 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2/ec2iface"
 )
 
-var wg sync.WaitGroup
-
 // EC2Client aws sdk ec2  interface
 type EC2Client struct {
 	ec2iface.EC2API
